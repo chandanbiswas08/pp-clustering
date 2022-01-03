@@ -1,0 +1,3272 @@
+
+
+---------------------K-means---------------------
+
+
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on real space
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3240	0.2840	0.5014
+
+
+
+
+
+
+
+
+---------------------LSH-partition--------------------
+
+
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false true
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+RealData/20_news_group/20_news_group.vec_256_10 numvecs 18828
+Time to load vectors = 0.0600 (secs)
+Time to clustering = 0.4290 (secs)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.083 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:01:50+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.0968	0.0019	0.0679
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.762 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:01:52+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+
+
+
+
+
+
+
+---------------------𝜙-Kmeans--------------------
+
+
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false false
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+Time to load vectors = 2.4690 (secs)
+Traditional KMeans
+Iteration 0 of K-means...
+Iteration 1 of K-means...
+Iteration 2 of K-means...
+Iteration 3 of K-means...
+Iteration 4 of K-means...
+Iteration 5 of K-means...
+Iteration 6 of K-means...
+Iteration 7 of K-means...
+Iteration 8 of K-means...
+Iteration 9 of K-means...
+Time to clustering = 3.3900 (secs)
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.3599	0.3232	0.5149
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.769 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:02:00+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+
+
+
+
+
+
+
+---------------------E2HK-means--------------------
+
+
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false false
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+Time to load vectors = 2.5750 (secs)
+Iteration 0 of K-means...
+Iteration 1 of K-means...
+Iteration 2 of K-means...
+Iteration 3 of K-means...
+Iteration 4 of K-means...
+Iteration 5 of K-means...
+Iteration 6 of K-means...
+Iteration 7 of K-means...
+Iteration 8 of K-means...
+Iteration 9 of K-means...
+Time to clustering = 16.3340 (secs)
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  17.004 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:02:19+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.3411	0.3048	0.4559
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.699 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:02:21+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+
+
+
+
+
+
+
+---------------------PPK-means--------------------
+
+
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on h2e space 256
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3810	0.3458	0.5065
+
+
+
+
+
+
+
+
+---------------------H-𝜓-Kmeans--------------------
+
+
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 10.4289 - val_loss: 10.2515
+Epoch 2/10
+ - 1s - loss: 10.4305 - val_loss: 10.3429
+Epoch 3/10
+ - 1s - loss: 10.3799 - val_loss: 10.5803
+Epoch 4/10
+ - 1s - loss: 10.4120 - val_loss: 10.3259
+Epoch 5/10
+ - 1s - loss: 10.4870 - val_loss: 10.4767
+Epoch 6/10
+ - 1s - loss: 10.4216 - val_loss: 10.4052
+Epoch 7/10
+ - 1s - loss: 10.4491 - val_loss: 10.3678
+Epoch 8/10
+ - 1s - loss: 10.4030 - val_loss: 10.3558
+Epoch 9/10
+ - 1s - loss: 10.4521 - val_loss: 10.4917
+Epoch 10/10
+ - 1s - loss: 10.3592 - val_loss: 10.4585
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3364	0.2999	0.4702
+
+
+
+
+
+
+
+
+---------------------𝜓-Kmeans-NP--------------------
+
+
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi-noprior embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 18.3741 - val_loss: 12.5221
+Epoch 2/20
+ - 1s - loss: 20.3683 - val_loss: 20.9981
+Epoch 3/20
+ - 1s - loss: 18.1753 - val_loss: 17.8658
+Epoch 4/20
+ - 1s - loss: 17.1203 - val_loss: 17.9383
+Epoch 5/20
+ - 1s - loss: 18.5387 - val_loss: 11.1529
+Epoch 6/20
+ - 1s - loss: 17.5182 - val_loss: 24.5875
+Epoch 7/20
+ - 1s - loss: 17.0755 - val_loss: 16.2875
+Epoch 8/20
+ - 1s - loss: 20.0796 - val_loss: 10.1970
+Epoch 9/20
+ - 1s - loss: 16.7376 - val_loss: 13.7651
+Epoch 10/20
+ - 1s - loss: 15.5217 - val_loss: 13.0076
+Epoch 11/20
+ - 1s - loss: 19.3952 - val_loss: 16.7179
+Epoch 12/20
+ - 1s - loss: 16.8231 - val_loss: 21.8684
+Epoch 13/20
+ - 1s - loss: 17.2412 - val_loss: 16.4519
+Epoch 14/20
+ - 1s - loss: 16.1103 - val_loss: 14.3334
+Epoch 15/20
+ - 1s - loss: 17.2231 - val_loss: 17.3876
+Epoch 16/20
+ - 1s - loss: 19.1545 - val_loss: 19.9904
+Epoch 17/20
+ - 1s - loss: 20.6964 - val_loss: 22.2817
+Epoch 18/20
+ - 1s - loss: 18.6382 - val_loss: 18.7775
+Epoch 19/20
+ - 1s - loss: 17.8163 - val_loss: 24.2278
+Epoch 20/20
+ - 1s - loss: 19.0667 - val_loss: 14.9594
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3700	0.3352	0.5120
+
+
+
+
+
+
+
+
+---------------------𝜓-Kmeans--------------------
+
+
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 14.0400 - val_loss: 11.5906
+Epoch 2/20
+ - 1s - loss: 15.1945 - val_loss: 13.4245
+Epoch 3/20
+ - 1s - loss: 14.6554 - val_loss: 14.4777
+Epoch 4/20
+ - 1s - loss: 14.2055 - val_loss: 11.4558
+Epoch 5/20
+ - 1s - loss: 14.5690 - val_loss: 14.6631
+Epoch 6/20
+ - 1s - loss: 14.1105 - val_loss: 17.0013
+Epoch 7/20
+ - 1s - loss: 13.6923 - val_loss: 11.5533
+Epoch 8/20
+ - 1s - loss: 16.0263 - val_loss: 12.0242
+Epoch 9/20
+ - 1s - loss: 13.1293 - val_loss: 12.5745
+Epoch 10/20
+ - 1s - loss: 13.1078 - val_loss: 12.6009
+Epoch 11/20
+ - 1s - loss: 15.0658 - val_loss: 11.0369
+Epoch 12/20
+ - 1s - loss: 13.8715 - val_loss: 12.9433
+Epoch 13/20
+ - 1s - loss: 13.5658 - val_loss: 16.5780
+Epoch 14/20
+ - 1s - loss: 13.5698 - val_loss: 12.0324
+Epoch 15/20
+ - 1s - loss: 13.9459 - val_loss: 14.8613
+Epoch 16/20
+ - 1s - loss: 15.1063 - val_loss: 13.0229
+Epoch 17/20
+ - 1s - loss: 15.6456 - val_loss: 16.0892
+Epoch 18/20
+ - 1s - loss: 14.6059 - val_loss: 10.3156
+Epoch 19/20
+ - 1s - loss: 13.8616 - val_loss: 10.3011
+Epoch 20/20
+ - 1s - loss: 14.6750 - val_loss: 14.2878
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3958	0.3630	0.5194
+
+
+
+
+
+
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false false
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+Time to load vectors = 1.7820 (secs)
+Traditional KMeans
+Iteration 0 of K-means...
+Iteration 1 of K-means...
+Iteration 2 of K-means...
+Iteration 3 of K-means...
+Iteration 4 of K-means...
+Iteration 5 of K-means...
+Iteration 6 of K-means...
+Iteration 7 of K-means...
+Iteration 8 of K-means...
+Iteration 9 of K-means...
+Time to clustering = 1.9360 (secs)
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.1700	0.1252	0.2618
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.742 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:06:28+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false false
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+Time to load vectors = 1.9200 (secs)
+Traditional KMeans
+Iteration 0 of K-means...
+Iteration 1 of K-means...
+Iteration 2 of K-means...
+Iteration 3 of K-means...
+Iteration 4 of K-means...
+Iteration 5 of K-means...
+Iteration 6 of K-means...
+Iteration 7 of K-means...
+Iteration 8 of K-means...
+Iteration 9 of K-means...
+Time to clustering = 2.1670 (secs)
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.2443	0.2026	0.3749
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.770 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:06:34+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false false
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+Time to load vectors = 2.2810 (secs)
+Traditional KMeans
+Iteration 0 of K-means...
+Iteration 1 of K-means...
+Iteration 2 of K-means...
+Iteration 3 of K-means...
+Iteration 4 of K-means...
+Iteration 5 of K-means...
+Iteration 6 of K-means...
+Iteration 7 of K-means...
+Iteration 8 of K-means...
+Iteration 9 of K-means...
+Time to clustering = 2.7670 (secs)
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.3242	0.2857	0.4699
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.785 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:06:41+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+num_vecs dim component K estimate_signature use projections use sbitminhash RealData/20_news_group/20_news_group.vec 18828 200 20 false false false
+K-means clustering...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+Time to load vectors = 2.5830 (secs)
+Traditional KMeans
+Iteration 0 of K-means...
+Iteration 1 of K-means...
+Iteration 2 of K-means...
+Iteration 3 of K-means...
+Iteration 4 of K-means...
+Iteration 5 of K-means...
+Iteration 6 of K-means...
+Iteration 7 of K-means...
+Iteration 8 of K-means...
+Iteration 9 of K-means...
+Time to clustering = 3.5360 (secs)
+Evaluating o/p...
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------------< [0;36mibm.research.drl:lshkmeans[0;1m >---------------------[m
+[[1;34mINFO[m] [1mBuilding lshkmeans 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.5.0:java[m [1m(default-cli)[m @ [36mlshkmeans[0;1m ---[m
+F-score	ARI	NMI	0.3599	0.3232	0.5149
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  0.728 s
+[[1;34mINFO[m] Finished at: 2021-11-11T11:06:49+05:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on h2e space 32
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.1578	0.1039	0.2397
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on h2e space 64
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2828	0.2404	0.3848
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on h2e space 128
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3341	0.2961	0.4688
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on h2e space 256
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3810	0.3458	0.5065
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 32 h-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 29, 256)           1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 28, 256)           0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 21, 512)           1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 20, 512)           0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 20, 512)           0         
+_________________________________________________________________
+flatten (Flatten)            (None, 10240)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               5243392   
+=================================================================
+Total params: 6,293,760
+Trainable params: 6,293,760
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          6293760     anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 6,293,760
+Trainable params: 6,293,760
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 1s - loss: 10.0829 - val_loss: 9.8219
+Epoch 2/10
+ - 0s - loss: 10.0228 - val_loss: 9.9955
+Epoch 3/10
+ - 0s - loss: 10.0544 - val_loss: 10.0208
+Epoch 4/10
+ - 0s - loss: 10.0072 - val_loss: 9.8732
+Epoch 5/10
+ - 0s - loss: 10.0431 - val_loss: 10.0072
+Epoch 6/10
+ - 0s - loss: 10.0753 - val_loss: 10.0106
+Epoch 7/10
+ - 0s - loss: 10.0499 - val_loss: 10.0342
+Epoch 8/10
+ - 0s - loss: 10.0559 - val_loss: 9.8214
+Epoch 9/10
+ - 0s - loss: 10.0384 - val_loss: 10.0180
+Epoch 10/10
+ - 0s - loss: 10.0231 - val_loss: 10.2838
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.1138	0.0653	0.1648
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 64 h-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 61, 256)           1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 60, 256)           0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 53, 512)           1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 52, 512)           0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 52, 512)           0         
+_________________________________________________________________
+flatten (Flatten)            (None, 26624)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               13632000  
+=================================================================
+Total params: 14,682,368
+Trainable params: 14,682,368
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          14682368    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 14,682,368
+Trainable params: 14,682,368
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 10.3012 - val_loss: 10.0555
+Epoch 2/10
+ - 0s - loss: 10.2723 - val_loss: 10.1636
+Epoch 3/10
+ - 0s - loss: 10.3401 - val_loss: 10.4051
+Epoch 4/10
+ - 0s - loss: 10.2524 - val_loss: 10.2179
+Epoch 5/10
+ - 0s - loss: 10.2842 - val_loss: 10.2385
+Epoch 6/10
+ - 0s - loss: 10.2788 - val_loss: 10.2448
+Epoch 7/10
+ - 0s - loss: 10.2939 - val_loss: 10.2778
+Epoch 8/10
+ - 0s - loss: 10.3174 - val_loss: 10.2465
+Epoch 9/10
+ - 0s - loss: 10.3391 - val_loss: 10.2063
+Epoch 10/10
+ - 0s - loss: 10.3255 - val_loss: 10.4373
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2059	0.1630	0.3005
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 128 h-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 125, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 124, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 117, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 116, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 116, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 59392)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               30409216  
+=================================================================
+Total params: 31,459,584
+Trainable params: 31,459,584
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          31459584    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 31,459,584
+Trainable params: 31,459,584
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 3s - loss: 10.4063 - val_loss: 10.2309
+Epoch 2/10
+ - 0s - loss: 10.3778 - val_loss: 10.2181
+Epoch 3/10
+ - 0s - loss: 10.3986 - val_loss: 10.5633
+Epoch 4/10
+ - 0s - loss: 10.3739 - val_loss: 10.3213
+Epoch 5/10
+ - 0s - loss: 10.4264 - val_loss: 10.4542
+Epoch 6/10
+ - 0s - loss: 10.4089 - val_loss: 10.3246
+Epoch 7/10
+ - 0s - loss: 10.4066 - val_loss: 10.3781
+Epoch 8/10
+ - 0s - loss: 10.3806 - val_loss: 10.3038
+Epoch 9/10
+ - 0s - loss: 10.3858 - val_loss: 10.4084
+Epoch 10/10
+ - 0s - loss: 10.3850 - val_loss: 10.4914
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2898	0.2510	0.4054
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 10.4448 - val_loss: 10.2515
+Epoch 2/10
+ - 1s - loss: 10.4184 - val_loss: 10.3428
+Epoch 3/10
+ - 1s - loss: 10.3799 - val_loss: 10.5803
+Epoch 4/10
+ - 1s - loss: 10.4120 - val_loss: 10.3259
+Epoch 5/10
+ - 1s - loss: 10.4870 - val_loss: 10.4766
+Epoch 6/10
+ - 1s - loss: 10.4216 - val_loss: 10.4052
+Epoch 7/10
+ - 1s - loss: 10.4492 - val_loss: 10.3678
+Epoch 8/10
+ - 1s - loss: 10.4030 - val_loss: 10.3558
+Epoch 9/10
+ - 1s - loss: 10.4521 - val_loss: 10.4917
+Epoch 10/10
+ - 1s - loss: 10.3592 - val_loss: 10.4585
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3366	0.3002	0.4704
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 32 h2e-psi-noprior embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 29, 256)           1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 28, 256)           0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 21, 512)           1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 20, 512)           0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 20, 512)           0         
+_________________________________________________________________
+flatten (Flatten)            (None, 10240)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               5243392   
+=================================================================
+Total params: 6,293,760
+Trainable params: 6,293,760
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          6293760     anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 6,293,760
+Trainable params: 6,293,760
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 1s - loss: 22.8571 - val_loss: 16.4772
+Epoch 2/10
+ - 0s - loss: 16.6423 - val_loss: 20.4006
+Epoch 3/10
+ - 0s - loss: 19.9649 - val_loss: 12.0075
+Epoch 4/10
+ - 0s - loss: 15.0629 - val_loss: 17.1007
+Epoch 5/10
+ - 0s - loss: 16.2007 - val_loss: 10.1243
+Epoch 6/10
+ - 0s - loss: 19.6623 - val_loss: 19.1799
+Epoch 7/10
+ - 0s - loss: 19.7792 - val_loss: 20.5099
+Epoch 8/10
+ - 0s - loss: 17.2669 - val_loss: 13.3371
+Epoch 9/10
+ - 0s - loss: 17.0748 - val_loss: 14.7242
+Epoch 10/10
+ - 0s - loss: 16.6571 - val_loss: 12.2962
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.1267	0.0749	0.1807
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 64 h2e-psi-noprior embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 61, 256)           1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 60, 256)           0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 53, 512)           1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 52, 512)           0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 52, 512)           0         
+_________________________________________________________________
+flatten (Flatten)            (None, 26624)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               13632000  
+=================================================================
+Total params: 14,682,368
+Trainable params: 14,682,368
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          14682368    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 14,682,368
+Trainable params: 14,682,368
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/60
+ - 2s - loss: 20.3727 - val_loss: 16.0704
+Epoch 2/60
+ - 0s - loss: 16.0230 - val_loss: 11.9562
+Epoch 3/60
+ - 0s - loss: 19.7018 - val_loss: 14.9266
+Epoch 4/60
+ - 0s - loss: 15.6957 - val_loss: 16.4438
+Epoch 5/60
+ - 0s - loss: 18.2624 - val_loss: 15.8225
+Epoch 6/60
+ - 0s - loss: 18.1800 - val_loss: 15.7606
+Epoch 7/60
+ - 0s - loss: 18.2340 - val_loss: 15.2597
+Epoch 8/60
+ - 0s - loss: 20.3924 - val_loss: 10.0467
+Epoch 9/60
+ - 0s - loss: 16.3947 - val_loss: 11.5309
+Epoch 10/60
+ - 0s - loss: 18.0099 - val_loss: 18.8111
+Epoch 11/60
+ - 0s - loss: 19.2790 - val_loss: 16.7868
+Epoch 12/60
+ - 0s - loss: 18.2956 - val_loss: 15.1242
+Epoch 13/60
+ - 0s - loss: 17.2282 - val_loss: 24.2629
+Epoch 14/60
+ - 0s - loss: 18.0549 - val_loss: 13.6775
+Epoch 15/60
+ - 0s - loss: 15.8374 - val_loss: 16.3140
+Epoch 16/60
+ - 0s - loss: 17.5325 - val_loss: 13.5195
+Epoch 17/60
+ - 0s - loss: 16.8493 - val_loss: 14.9209
+Epoch 18/60
+ - 0s - loss: 17.6386 - val_loss: 14.1100
+Epoch 19/60
+ - 0s - loss: 17.0855 - val_loss: 13.2327
+Epoch 20/60
+ - 0s - loss: 17.1165 - val_loss: 12.9478
+Epoch 21/60
+ - 0s - loss: 17.6873 - val_loss: 11.7214
+Epoch 22/60
+ - 0s - loss: 16.4390 - val_loss: 10.7430
+Epoch 23/60
+ - 0s - loss: 18.3530 - val_loss: 10.0446
+Epoch 24/60
+ - 0s - loss: 16.6151 - val_loss: 13.2930
+Epoch 25/60
+ - 0s - loss: 16.0621 - val_loss: 15.9001
+Epoch 26/60
+ - 0s - loss: 16.0501 - val_loss: 18.8421
+Epoch 27/60
+ - 0s - loss: 14.8927 - val_loss: 21.7272
+Epoch 28/60
+ - 0s - loss: 13.6147 - val_loss: 12.5347
+Epoch 29/60
+ - 0s - loss: 16.6743 - val_loss: 16.7922
+Epoch 30/60
+ - 0s - loss: 15.7152 - val_loss: 16.3347
+Epoch 31/60
+ - 0s - loss: 16.5607 - val_loss: 12.2849
+Epoch 32/60
+ - 0s - loss: 18.2495 - val_loss: 15.9230
+Epoch 33/60
+ - 0s - loss: 16.9821 - val_loss: 13.4952
+Epoch 34/60
+ - 0s - loss: 19.3560 - val_loss: 14.0970
+Epoch 35/60
+ - 0s - loss: 16.3914 - val_loss: 14.7548
+Epoch 36/60
+ - 0s - loss: 17.0281 - val_loss: 14.7318
+Epoch 37/60
+ - 0s - loss: 16.6031 - val_loss: 16.9125
+Epoch 38/60
+ - 0s - loss: 14.1958 - val_loss: 14.0415
+Epoch 39/60
+ - 0s - loss: 14.5449 - val_loss: 14.0132
+Epoch 40/60
+ - 0s - loss: 16.2243 - val_loss: 12.6281
+Epoch 41/60
+ - 0s - loss: 15.9966 - val_loss: 12.4350
+Epoch 42/60
+ - 0s - loss: 15.6824 - val_loss: 18.7903
+Epoch 43/60
+ - 0s - loss: 14.9350 - val_loss: 11.6911
+Epoch 44/60
+ - 0s - loss: 14.0760 - val_loss: 12.6693
+Epoch 45/60
+ - 0s - loss: 14.0737 - val_loss: 11.5298
+Epoch 46/60
+ - 0s - loss: 17.7775 - val_loss: 10.1936
+Epoch 47/60
+ - 0s - loss: 15.8069 - val_loss: 19.3048
+Epoch 48/60
+ - 0s - loss: 15.3357 - val_loss: 16.1767
+Epoch 49/60
+ - 0s - loss: 15.1891 - val_loss: 13.9652
+Epoch 50/60
+ - 0s - loss: 15.2996 - val_loss: 14.7677
+Epoch 51/60
+ - 0s - loss: 13.4190 - val_loss: 12.2432
+Epoch 52/60
+ - 0s - loss: 14.9241 - val_loss: 11.4956
+Epoch 53/60
+ - 0s - loss: 13.9492 - val_loss: 17.8631
+Epoch 54/60
+ - 0s - loss: 14.2836 - val_loss: 11.3628
+Epoch 55/60
+ - 0s - loss: 15.7723 - val_loss: 13.6522
+Epoch 56/60
+ - 0s - loss: 15.1919 - val_loss: 13.9417
+Epoch 57/60
+ - 0s - loss: 15.7893 - val_loss: 16.0029
+Epoch 58/60
+ - 0s - loss: 15.7407 - val_loss: 10.0403
+Epoch 59/60
+ - 0s - loss: 16.6411 - val_loss: 14.0763
+Epoch 60/60
+ - 0s - loss: 14.9568 - val_loss: 13.5164
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2469	0.2036	0.3495
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 128 h2e-psi-noprior embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 125, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 124, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 117, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 116, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 116, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 59392)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               30409216  
+=================================================================
+Total params: 31,459,584
+Trainable params: 31,459,584
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          31459584    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 31,459,584
+Trainable params: 31,459,584
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 3s - loss: 18.1872 - val_loss: 11.4808
+Epoch 2/20
+ - 0s - loss: 17.0663 - val_loss: 14.1646
+Epoch 3/20
+ - 0s - loss: 18.3847 - val_loss: 15.8462
+Epoch 4/20
+ - 0s - loss: 17.3905 - val_loss: 12.2562
+Epoch 5/20
+ - 0s - loss: 18.8018 - val_loss: 14.5037
+Epoch 6/20
+ - 0s - loss: 17.8759 - val_loss: 10.9391
+Epoch 7/20
+ - 0s - loss: 18.9508 - val_loss: 16.4372
+Epoch 8/20
+ - 0s - loss: 19.6104 - val_loss: 10.7235
+Epoch 9/20
+ - 0s - loss: 17.0517 - val_loss: 12.7509
+Epoch 10/20
+ - 0s - loss: 19.7108 - val_loss: 20.5886
+Epoch 11/20
+ - 0s - loss: 17.9667 - val_loss: 15.6399
+Epoch 12/20
+ - 0s - loss: 18.6541 - val_loss: 13.3813
+Epoch 13/20
+ - 0s - loss: 15.1889 - val_loss: 17.7652
+Epoch 14/20
+ - 0s - loss: 16.6483 - val_loss: 10.1516
+Epoch 15/20
+ - 0s - loss: 15.6474 - val_loss: 10.6696
+Epoch 16/20
+ - 0s - loss: 16.0860 - val_loss: 10.9418
+Epoch 17/20
+ - 0s - loss: 15.2378 - val_loss: 15.0135
+Epoch 18/20
+ - 0s - loss: 16.8834 - val_loss: 14.7405
+Epoch 19/20
+ - 0s - loss: 16.3344 - val_loss: 15.8589
+Epoch 20/20
+ - 0s - loss: 18.1608 - val_loss: 16.1384
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3076	0.2673	0.4437
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi-noprior embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 16.8403 - val_loss: 12.7143
+Epoch 2/20
+ - 1s - loss: 20.3338 - val_loss: 16.4537
+Epoch 3/20
+ - 1s - loss: 18.7483 - val_loss: 18.9011
+Epoch 4/20
+ - 1s - loss: 17.5334 - val_loss: 12.3799
+Epoch 5/20
+ - 1s - loss: 18.5037 - val_loss: 20.6596
+Epoch 6/20
+ - 1s - loss: 17.2770 - val_loss: 21.1153
+Epoch 7/20
+ - 1s - loss: 17.0817 - val_loss: 13.0540
+Epoch 8/20
+ - 1s - loss: 21.0679 - val_loss: 14.1139
+Epoch 9/20
+ - 1s - loss: 15.7851 - val_loss: 13.8912
+Epoch 10/20
+ - 1s - loss: 15.7408 - val_loss: 14.7063
+Epoch 11/20
+ - 1s - loss: 19.3952 - val_loss: 10.9497
+Epoch 12/20
+ - 1s - loss: 17.6373 - val_loss: 14.9708
+Epoch 13/20
+ - 1s - loss: 15.7600 - val_loss: 20.6626
+Epoch 14/20
+ - 1s - loss: 16.7594 - val_loss: 15.1165
+Epoch 15/20
+ - 1s - loss: 17.5008 - val_loss: 19.9883
+Epoch 16/20
+ - 1s - loss: 19.6458 - val_loss: 15.8394
+Epoch 17/20
+ - 1s - loss: 20.5608 - val_loss: 21.1608
+Epoch 18/20
+ - 1s - loss: 18.7902 - val_loss: 11.2407
+Epoch 19/20
+ - 1s - loss: 16.8079 - val_loss: 10.1968
+Epoch 20/20
+ - 1s - loss: 18.5854 - val_loss: 19.4185
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3701	0.3353	0.5121
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 32 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 29, 256)           1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 28, 256)           0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 21, 512)           1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 20, 512)           0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 20, 512)           0         
+_________________________________________________________________
+flatten (Flatten)            (None, 10240)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               5243392   
+=================================================================
+Total params: 6,293,760
+Trainable params: 6,293,760
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 32, 1)        0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          6293760     anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 6,293,760
+Trainable params: 6,293,760
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 1s - loss: 16.4457 - val_loss: 15.2883
+Epoch 2/10
+ - 0s - loss: 14.6610 - val_loss: 15.5768
+Epoch 3/10
+ - 0s - loss: 15.1884 - val_loss: 18.1072
+Epoch 4/10
+ - 0s - loss: 13.6964 - val_loss: 21.2648
+Epoch 5/10
+ - 0s - loss: 14.4658 - val_loss: 13.5843
+Epoch 6/10
+ - 0s - loss: 16.4804 - val_loss: 15.1174
+Epoch 7/10
+ - 0s - loss: 14.7465 - val_loss: 10.9681
+Epoch 8/10
+ - 0s - loss: 14.9588 - val_loss: 11.8179
+Epoch 9/10
+ - 0s - loss: 14.4955 - val_loss: 22.2279
+Epoch 10/10
+ - 0s - loss: 13.2013 - val_loss: 15.5644
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.1381	0.0861	0.2003
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 64 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 61, 256)           1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 60, 256)           0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 53, 512)           1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 52, 512)           0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 52, 512)           0         
+_________________________________________________________________
+flatten (Flatten)            (None, 26624)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               13632000  
+=================================================================
+Total params: 14,682,368
+Trainable params: 14,682,368
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 64, 1)        0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          14682368    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 14,682,368
+Trainable params: 14,682,368
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/60
+ - 2s - loss: 17.3329 - val_loss: 12.7712
+Epoch 2/60
+ - 0s - loss: 13.6105 - val_loss: 11.5802
+Epoch 3/60
+ - 0s - loss: 15.3428 - val_loss: 12.9314
+Epoch 4/60
+ - 0s - loss: 13.4859 - val_loss: 12.6426
+Epoch 5/60
+ - 0s - loss: 15.1070 - val_loss: 12.4333
+Epoch 6/60
+ - 0s - loss: 14.8449 - val_loss: 12.3576
+Epoch 7/60
+ - 0s - loss: 15.0730 - val_loss: 13.7633
+Epoch 8/60
+ - 0s - loss: 16.5845 - val_loss: 10.3213
+Epoch 9/60
+ - 0s - loss: 13.7519 - val_loss: 11.3495
+Epoch 10/60
+ - 0s - loss: 14.3596 - val_loss: 15.0739
+Epoch 11/60
+ - 0s - loss: 15.6159 - val_loss: 13.3624
+Epoch 12/60
+ - 0s - loss: 14.7076 - val_loss: 13.5064
+Epoch 13/60
+ - 0s - loss: 14.3733 - val_loss: 21.0692
+Epoch 14/60
+ - 0s - loss: 14.8239 - val_loss: 10.5619
+Epoch 15/60
+ - 0s - loss: 13.7150 - val_loss: 13.3436
+Epoch 16/60
+ - 0s - loss: 14.4769 - val_loss: 11.7430
+Epoch 17/60
+ - 0s - loss: 13.8174 - val_loss: 13.2782
+Epoch 18/60
+ - 0s - loss: 14.7010 - val_loss: 13.6022
+Epoch 19/60
+ - 0s - loss: 14.6571 - val_loss: 11.3920
+Epoch 20/60
+ - 0s - loss: 14.4748 - val_loss: 12.1381
+Epoch 21/60
+ - 0s - loss: 14.4238 - val_loss: 10.8569
+Epoch 22/60
+ - 0s - loss: 13.6500 - val_loss: 10.2260
+Epoch 23/60
+ - 0s - loss: 15.0399 - val_loss: 10.0452
+Epoch 24/60
+ - 0s - loss: 14.0389 - val_loss: 12.1638
+Epoch 25/60
+ - 0s - loss: 13.7124 - val_loss: 11.6457
+Epoch 26/60
+ - 0s - loss: 13.7141 - val_loss: 13.8941
+Epoch 27/60
+ - 0s - loss: 12.9971 - val_loss: 17.1132
+Epoch 28/60
+ - 0s - loss: 12.2753 - val_loss: 11.0922
+Epoch 29/60
+ - 0s - loss: 14.1661 - val_loss: 13.5413
+Epoch 30/60
+ - 0s - loss: 13.3912 - val_loss: 14.3314
+Epoch 31/60
+ - 0s - loss: 13.9189 - val_loss: 11.1972
+Epoch 32/60
+ - 0s - loss: 15.0897 - val_loss: 13.3359
+Epoch 33/60
+ - 0s - loss: 13.9814 - val_loss: 11.7532
+Epoch 34/60
+ - 0s - loss: 15.6439 - val_loss: 11.4711
+Epoch 35/60
+ - 0s - loss: 13.8423 - val_loss: 12.8293
+Epoch 36/60
+ - 0s - loss: 14.5704 - val_loss: 14.2907
+Epoch 37/60
+ - 0s - loss: 13.9710 - val_loss: 13.3282
+Epoch 38/60
+ - 0s - loss: 12.7033 - val_loss: 13.4725
+Epoch 39/60
+ - 0s - loss: 12.8145 - val_loss: 11.9292
+Epoch 40/60
+ - 0s - loss: 14.0870 - val_loss: 12.1115
+Epoch 41/60
+ - 0s - loss: 13.6203 - val_loss: 11.1627
+Epoch 42/60
+ - 0s - loss: 13.2753 - val_loss: 14.9859
+Epoch 43/60
+ - 0s - loss: 12.8997 - val_loss: 10.4268
+Epoch 44/60
+ - 0s - loss: 12.5991 - val_loss: 11.3027
+Epoch 45/60
+ - 0s - loss: 12.3961 - val_loss: 10.2332
+Epoch 46/60
+ - 0s - loss: 14.8478 - val_loss: 10.7440
+Epoch 47/60
+ - 0s - loss: 13.2341 - val_loss: 18.1015
+Epoch 48/60
+ - 0s - loss: 13.4636 - val_loss: 14.5836
+Epoch 49/60
+ - 0s - loss: 13.1480 - val_loss: 12.2761
+Epoch 50/60
+ - 0s - loss: 13.2293 - val_loss: 13.3885
+Epoch 51/60
+ - 0s - loss: 12.1551 - val_loss: 11.6987
+Epoch 52/60
+ - 0s - loss: 13.3530 - val_loss: 10.4309
+Epoch 53/60
+ - 0s - loss: 12.5275 - val_loss: 13.9241
+Epoch 54/60
+ - 0s - loss: 12.6713 - val_loss: 10.6932
+Epoch 55/60
+ - 0s - loss: 13.4857 - val_loss: 11.7509
+Epoch 56/60
+ - 0s - loss: 13.4553 - val_loss: 12.6473
+Epoch 57/60
+ - 0s - loss: 13.5759 - val_loss: 12.3809
+Epoch 58/60
+ - 0s - loss: 13.6057 - val_loss: 10.2005
+Epoch 59/60
+ - 0s - loss: 14.1435 - val_loss: 12.3676
+Epoch 60/60
+ - 0s - loss: 12.9370 - val_loss: 11.8938
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2815	0.2405	0.3884
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 128 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 125, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 124, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 117, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 116, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 116, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 59392)             0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               30409216  
+=================================================================
+Total params: 31,459,584
+Trainable params: 31,459,584
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 128, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          31459584    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 31,459,584
+Trainable params: 31,459,584
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 3s - loss: 13.5830 - val_loss: 11.0646
+Epoch 2/20
+ - 0s - loss: 13.7547 - val_loss: 11.9328
+Epoch 3/20
+ - 0s - loss: 14.5962 - val_loss: 11.7527
+Epoch 4/20
+ - 0s - loss: 13.8529 - val_loss: 11.2693
+Epoch 5/20
+ - 0s - loss: 14.4124 - val_loss: 12.4557
+Epoch 6/20
+ - 0s - loss: 14.7089 - val_loss: 10.4957
+Epoch 7/20
+ - 0s - loss: 14.8047 - val_loss: 12.7954
+Epoch 8/20
+ - 0s - loss: 14.9975 - val_loss: 10.4659
+Epoch 9/20
+ - 0s - loss: 13.8464 - val_loss: 11.7854
+Epoch 10/20
+ - 0s - loss: 15.0013 - val_loss: 14.7162
+Epoch 11/20
+ - 0s - loss: 14.3530 - val_loss: 13.7473
+Epoch 12/20
+ - 0s - loss: 14.4788 - val_loss: 12.9227
+Epoch 13/20
+ - 0s - loss: 12.8270 - val_loss: 13.1704
+Epoch 14/20
+ - 0s - loss: 13.5276 - val_loss: 10.1520
+Epoch 15/20
+ - 0s - loss: 13.2281 - val_loss: 10.4942
+Epoch 16/20
+ - 0s - loss: 13.4176 - val_loss: 10.1518
+Epoch 17/20
+ - 0s - loss: 13.0000 - val_loss: 12.5198
+Epoch 18/20
+ - 0s - loss: 13.8592 - val_loss: 13.1483
+Epoch 19/20
+ - 0s - loss: 13.6912 - val_loss: 12.8303
+Epoch 20/20
+ - 0s - loss: 14.6422 - val_loss: 13.6467
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3385	0.3005	0.4663
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 14.1253 - val_loss: 11.5825
+Epoch 2/20
+ - 1s - loss: 15.1876 - val_loss: 13.4199
+Epoch 3/20
+ - 1s - loss: 14.6508 - val_loss: 14.4534
+Epoch 4/20
+ - 1s - loss: 14.2008 - val_loss: 11.4429
+Epoch 5/20
+ - 1s - loss: 14.5676 - val_loss: 14.6591
+Epoch 6/20
+ - 1s - loss: 14.1065 - val_loss: 16.9788
+Epoch 7/20
+ - 1s - loss: 13.6892 - val_loss: 11.5554
+Epoch 8/20
+ - 1s - loss: 16.0251 - val_loss: 12.0231
+Epoch 9/20
+ - 1s - loss: 13.1268 - val_loss: 12.5566
+Epoch 10/20
+ - 1s - loss: 13.1038 - val_loss: 12.5954
+Epoch 11/20
+ - 1s - loss: 15.0613 - val_loss: 11.0318
+Epoch 12/20
+ - 1s - loss: 13.8719 - val_loss: 12.9432
+Epoch 13/20
+ - 1s - loss: 13.5631 - val_loss: 16.5729
+Epoch 14/20
+ - 1s - loss: 13.5746 - val_loss: 12.0432
+Epoch 15/20
+ - 1s - loss: 13.9447 - val_loss: 14.8543
+Epoch 16/20
+ - 1s - loss: 15.1016 - val_loss: 13.0231
+Epoch 17/20
+ - 1s - loss: 15.6400 - val_loss: 16.0813
+Epoch 18/20
+ - 1s - loss: 14.6048 - val_loss: 10.3228
+Epoch 19/20
+ - 1s - loss: 13.8601 - val_loss: 10.2994
+Epoch 20/20
+ - 1s - loss: 14.6728 - val_loss: 14.2883
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3958	0.3630	0.5193
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h-psi embed dim 64
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 64)                7995456   
+=================================================================
+Total params: 9,045,824
+Trainable params: 9,045,824
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 64)           9045824     anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 9,045,824
+Trainable params: 9,045,824
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 1.4914 - val_loss: 1.4231
+Epoch 2/10
+ - 1s - loss: 1.4778 - val_loss: 1.4829
+Epoch 3/10
+ - 1s - loss: 1.4719 - val_loss: 1.5154
+Epoch 4/10
+ - 1s - loss: 1.4721 - val_loss: 1.4744
+Epoch 5/10
+ - 1s - loss: 1.4745 - val_loss: 1.5142
+Epoch 6/10
+ - 1s - loss: 1.4820 - val_loss: 1.4866
+Epoch 7/10
+ - 1s - loss: 1.4791 - val_loss: 1.4731
+Epoch 8/10
+ - 1s - loss: 1.4787 - val_loss: 1.4728
+Epoch 9/10
+ - 1s - loss: 1.4737 - val_loss: 1.4876
+Epoch 10/10
+ - 1s - loss: 1.4706 - val_loss: 1.4826
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2647	0.2249	0.3640
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h-psi embed dim 128
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 128)               15990912  
+=================================================================
+Total params: 17,041,280
+Trainable params: 17,041,280
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 128)          17041280    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 17,041,280
+Trainable params: 17,041,280
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 2.7495 - val_loss: 2.7323
+Epoch 2/10
+ - 1s - loss: 2.7414 - val_loss: 2.7110
+Epoch 3/10
+ - 1s - loss: 2.7346 - val_loss: 2.8083
+Epoch 4/10
+ - 1s - loss: 2.7319 - val_loss: 2.7688
+Epoch 5/10
+ - 1s - loss: 2.7682 - val_loss: 2.7305
+Epoch 6/10
+ - 1s - loss: 2.7595 - val_loss: 2.7575
+Epoch 7/10
+ - 1s - loss: 2.7607 - val_loss: 2.7442
+Epoch 8/10
+ - 1s - loss: 2.7806 - val_loss: 2.7384
+Epoch 9/10
+ - 1s - loss: 2.7645 - val_loss: 2.7647
+Epoch 10/10
+ - 1s - loss: 2.7523 - val_loss: 2.7901
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2881	0.2496	0.4024
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h-psi embed dim 256
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 256)               31981824  
+=================================================================
+Total params: 33,032,192
+Trainable params: 33,032,192
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 256)          33032192    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 33,032,192
+Trainable params: 33,032,192
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 3s - loss: 5.3330 - val_loss: 5.2641
+Epoch 2/10
+ - 1s - loss: 5.3212 - val_loss: 5.2537
+Epoch 3/10
+ - 1s - loss: 5.3229 - val_loss: 5.3772
+Epoch 4/10
+ - 1s - loss: 5.3085 - val_loss: 5.3194
+Epoch 5/10
+ - 1s - loss: 5.3165 - val_loss: 5.3345
+Epoch 6/10
+ - 1s - loss: 5.3052 - val_loss: 5.3740
+Epoch 7/10
+ - 1s - loss: 5.3387 - val_loss: 5.2727
+Epoch 8/10
+ - 1s - loss: 5.3042 - val_loss: 5.2556
+Epoch 9/10
+ - 1s - loss: 5.3285 - val_loss: 5.4040
+Epoch 10/10
+ - 1s - loss: 5.3066 - val_loss: 5.3546
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3468	0.3109	0.4600
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 10.4234 - val_loss: 10.2515
+Epoch 2/10
+ - 1s - loss: 10.4183 - val_loss: 10.3428
+Epoch 3/10
+ - 1s - loss: 10.3799 - val_loss: 10.5803
+Epoch 4/10
+ - 1s - loss: 10.4120 - val_loss: 10.3259
+Epoch 5/10
+ - 1s - loss: 10.4870 - val_loss: 10.4766
+Epoch 6/10
+ - 1s - loss: 10.4215 - val_loss: 10.4052
+Epoch 7/10
+ - 1s - loss: 10.4491 - val_loss: 10.3678
+Epoch 8/10
+ - 1s - loss: 10.4030 - val_loss: 10.3558
+Epoch 9/10
+ - 1s - loss: 10.4521 - val_loss: 10.4917
+Epoch 10/10
+ - 1s - loss: 10.3592 - val_loss: 10.4585
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3369	0.3004	0.4707
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi-noprior embed dim 64
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 64)                7995456   
+=================================================================
+Total params: 9,045,824
+Trainable params: 9,045,824
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 64)           9045824     anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 9,045,824
+Trainable params: 9,045,824
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 2.2419 - val_loss: 2.2072
+Epoch 2/10
+ - 1s - loss: 2.7419 - val_loss: 2.9675
+Epoch 3/10
+ - 1s - loss: 2.6725 - val_loss: 2.0439
+Epoch 4/10
+ - 1s - loss: 2.5305 - val_loss: 1.8693
+Epoch 5/10
+ - 1s - loss: 2.6549 - val_loss: 2.3670
+Epoch 6/10
+ - 1s - loss: 2.1316 - val_loss: 2.8910
+Epoch 7/10
+ - 1s - loss: 2.3631 - val_loss: 1.9063
+Epoch 8/10
+ - 1s - loss: 2.9490 - val_loss: 1.7763
+Epoch 9/10
+ - 1s - loss: 2.3271 - val_loss: 1.6266
+Epoch 10/10
+ - 1s - loss: 2.1127 - val_loss: 2.4640
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3437	0.3068	0.4536
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi-noprior embed dim 128
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 128)               15990912  
+=================================================================
+Total params: 17,041,280
+Trainable params: 17,041,280
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 128)          17041280    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 17,041,280
+Trainable params: 17,041,280
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 4.5190 - val_loss: 4.1908
+Epoch 2/10
+ - 1s - loss: 5.3920 - val_loss: 4.6221
+Epoch 3/10
+ - 1s - loss: 5.1833 - val_loss: 4.8282
+Epoch 4/10
+ - 1s - loss: 4.7549 - val_loss: 3.0798
+Epoch 5/10
+ - 1s - loss: 5.2712 - val_loss: 4.7540
+Epoch 6/10
+ - 1s - loss: 4.3937 - val_loss: 5.1472
+Epoch 7/10
+ - 1s - loss: 4.6993 - val_loss: 3.4908
+Epoch 8/10
+ - 1s - loss: 5.3411 - val_loss: 3.9726
+Epoch 9/10
+ - 1s - loss: 4.1460 - val_loss: 4.0526
+Epoch 10/10
+ - 1s - loss: 4.0914 - val_loss: 4.1085
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3494	0.3136	0.4722
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi-noprior embed dim 256
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 256)               31981824  
+=================================================================
+Total params: 33,032,192
+Trainable params: 33,032,192
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 256)          33032192    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 33,032,192
+Trainable params: 33,032,192
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 3s - loss: 8.6802 - val_loss: 5.7423
+Epoch 2/10
+ - 1s - loss: 10.0112 - val_loss: 10.0643
+Epoch 3/10
+ - 1s - loss: 9.6847 - val_loss: 9.1078
+Epoch 4/10
+ - 1s - loss: 8.7165 - val_loss: 5.5260
+Epoch 5/10
+ - 1s - loss: 9.7100 - val_loss: 9.1912
+Epoch 6/10
+ - 1s - loss: 8.5473 - val_loss: 8.2779
+Epoch 7/10
+ - 1s - loss: 8.8621 - val_loss: 6.7426
+Epoch 8/10
+ - 1s - loss: 11.1761 - val_loss: 6.4303
+Epoch 9/10
+ - 1s - loss: 8.2418 - val_loss: 6.9710
+Epoch 10/10
+ - 1s - loss: 8.0769 - val_loss: 7.7157
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3160	0.2717	0.4708
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi-noprior embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 18.2725 - val_loss: 14.6270
+Epoch 2/10
+ - 1s - loss: 20.9766 - val_loss: 21.0531
+Epoch 3/10
+ - 1s - loss: 18.1795 - val_loss: 17.9089
+Epoch 4/10
+ - 1s - loss: 17.1275 - val_loss: 17.9505
+Epoch 5/10
+ - 1s - loss: 18.5439 - val_loss: 11.1518
+Epoch 6/10
+ - 1s - loss: 17.5293 - val_loss: 24.6235
+Epoch 7/10
+ - 1s - loss: 17.0687 - val_loss: 16.3136
+Epoch 8/10
+ - 1s - loss: 20.0836 - val_loss: 10.1970
+Epoch 9/10
+ - 1s - loss: 16.7369 - val_loss: 13.8324
+Epoch 10/10
+ - 1s - loss: 15.5291 - val_loss: 13.0187
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3747	0.3402	0.5114
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 64
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 64)                7995456   
+=================================================================
+Total params: 9,045,824
+Trainable params: 9,045,824
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 64)           9045824     anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 9,045,824
+Trainable params: 9,045,824
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 1.8976 - val_loss: 1.5821
+Epoch 2/10
+ - 1s - loss: 2.1323 - val_loss: 1.9419
+Epoch 3/10
+ - 1s - loss: 1.9984 - val_loss: 2.0434
+Epoch 4/10
+ - 1s - loss: 2.0378 - val_loss: 1.5633
+Epoch 5/10
+ - 1s - loss: 2.0388 - val_loss: 1.8223
+Epoch 6/10
+ - 1s - loss: 1.8979 - val_loss: 2.4273
+Epoch 7/10
+ - 1s - loss: 1.8247 - val_loss: 1.5899
+Epoch 8/10
+ - 1s - loss: 2.0914 - val_loss: 1.6399
+Epoch 9/10
+ - 1s - loss: 1.8283 - val_loss: 1.5677
+Epoch 10/10
+ - 1s - loss: 1.7476 - val_loss: 1.7471
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3576	0.3188	0.4824
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 128
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 128)               15990912  
+=================================================================
+Total params: 17,041,280
+Trainable params: 17,041,280
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 128)          17041280    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 17,041,280
+Trainable params: 17,041,280
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 2s - loss: 3.6213 - val_loss: 2.8073
+Epoch 2/10
+ - 1s - loss: 4.1375 - val_loss: 3.6029
+Epoch 3/10
+ - 1s - loss: 4.0687 - val_loss: 3.5580
+Epoch 4/10
+ - 1s - loss: 3.6639 - val_loss: 2.7776
+Epoch 5/10
+ - 1s - loss: 4.0519 - val_loss: 3.6501
+Epoch 6/10
+ - 1s - loss: 3.5740 - val_loss: 4.3625
+Epoch 7/10
+ - 1s - loss: 3.6576 - val_loss: 2.8663
+Epoch 8/10
+ - 1s - loss: 4.0446 - val_loss: 3.0242
+Epoch 9/10
+ - 1s - loss: 3.4741 - val_loss: 3.2306
+Epoch 10/10
+ - 1s - loss: 3.3970 - val_loss: 3.3754
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3152	0.2700	0.4797
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 256
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 256)               31981824  
+=================================================================
+Total params: 33,032,192
+Trainable params: 33,032,192
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 256)          33032192    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 33,032,192
+Trainable params: 33,032,192
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 3s - loss: 7.2892 - val_loss: 6.0941
+Epoch 2/10
+ - 1s - loss: 7.8320 - val_loss: 7.3170
+Epoch 3/10
+ - 1s - loss: 7.4723 - val_loss: 7.8113
+Epoch 4/10
+ - 1s - loss: 7.1661 - val_loss: 6.0226
+Epoch 5/10
+ - 1s - loss: 7.6481 - val_loss: 7.2893
+Epoch 6/10
+ - 1s - loss: 7.2649 - val_loss: 8.1350
+Epoch 7/10
+ - 1s - loss: 7.1990 - val_loss: 5.8510
+Epoch 8/10
+ - 1s - loss: 8.3070 - val_loss: 6.0467
+Epoch 9/10
+ - 1s - loss: 6.8650 - val_loss: 6.2061
+Epoch 10/10
+ - 1s - loss: 6.7666 - val_loss: 6.1825
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3805	0.3465	0.5187
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 14.0118 - val_loss: 11.5842
+Epoch 2/10
+ - 1s - loss: 15.1885 - val_loss: 13.4222
+Epoch 3/10
+ - 1s - loss: 14.6537 - val_loss: 14.4709
+Epoch 4/10
+ - 1s - loss: 14.2022 - val_loss: 11.4477
+Epoch 5/10
+ - 1s - loss: 14.5676 - val_loss: 14.6651
+Epoch 6/10
+ - 1s - loss: 14.1080 - val_loss: 16.9957
+Epoch 7/10
+ - 1s - loss: 13.6876 - val_loss: 11.5547
+Epoch 8/10
+ - 1s - loss: 16.0268 - val_loss: 12.0260
+Epoch 9/10
+ - 1s - loss: 13.1284 - val_loss: 12.5611
+Epoch 10/10
+ - 1s - loss: 13.1044 - val_loss: 12.5995
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3958	0.3630	0.5193
+Generating Triplets using KMeans tau=0.010000
+Generated 150 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 13.9004 - val_loss: 11.6279
+Epoch 2/10
+ - 1s - loss: 14.7124 - val_loss: 18.2893
+Epoch 3/10
+ - 1s - loss: 14.0525 - val_loss: 13.6138
+Epoch 4/10
+ - 1s - loss: 13.8412 - val_loss: 12.9026
+Epoch 5/10
+ - 1s - loss: 15.4440 - val_loss: 11.6045
+Epoch 6/10
+ - 1s - loss: 13.8061 - val_loss: 11.6045
+Epoch 7/10
+ - 1s - loss: 13.4915 - val_loss: 16.2109
+Epoch 8/10
+ - 1s - loss: 14.1993 - val_loss: 12.1782
+Epoch 9/10
+ - 1s - loss: 14.0578 - val_loss: 13.9068
+Epoch 10/10
+ - 1s - loss: 12.4936 - val_loss: 13.4312
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3957	0.3629	0.5192
+Generating Triplets using KMeans tau=0.020000
+Generated 312 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 14.3887 - val_loss: 14.4956
+Epoch 2/10
+ - 1s - loss: 15.2115 - val_loss: 10.9415
+Epoch 3/10
+ - 1s - loss: 14.3013 - val_loss: 10.2062
+Epoch 4/10
+ - 1s - loss: 14.1253 - val_loss: 14.1736
+Epoch 5/10
+ - 1s - loss: 13.2981 - val_loss: 10.5404
+Epoch 6/10
+ - 1s - loss: 14.6075 - val_loss: 10.1970
+Epoch 7/10
+ - 1s - loss: 15.1315 - val_loss: 10.7443
+Epoch 8/10
+ - 1s - loss: 13.5848 - val_loss: 10.2430
+Epoch 9/10
+ - 1s - loss: 14.5794 - val_loss: 13.6276
+Epoch 10/10
+ - 1s - loss: 14.0530 - val_loss: 10.9079
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3860	0.3523	0.5046
+Generating Triplets using KMeans tau=0.050000
+Generated 745 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 14.5834 - val_loss: 14.8154
+Epoch 2/10
+ - 1s - loss: 14.7226 - val_loss: 13.6287
+Epoch 3/10
+ - 1s - loss: 14.7676 - val_loss: 13.8183
+Epoch 4/10
+ - 1s - loss: 15.0218 - val_loss: 15.3895
+Epoch 5/10
+ - 1s - loss: 13.8890 - val_loss: 12.4071
+Epoch 6/10
+ - 1s - loss: 14.8940 - val_loss: 15.7734
+Epoch 7/10
+ - 1s - loss: 13.6772 - val_loss: 12.0891
+Epoch 8/10
+ - 1s - loss: 14.9709 - val_loss: 12.5560
+Epoch 9/10
+ - 1s - loss: 14.9426 - val_loss: 12.3847
+Epoch 10/10
+ - 1s - loss: 15.2328 - val_loss: 12.6631
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3851	0.3513	0.5043
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 14.0601 - val_loss: 12.3837
+Epoch 2/10
+ - 1s - loss: 15.2821 - val_loss: 13.4201
+Epoch 3/10
+ - 1s - loss: 14.6599 - val_loss: 14.4932
+Epoch 4/10
+ - 1s - loss: 14.2095 - val_loss: 11.4657
+Epoch 5/10
+ - 1s - loss: 14.5664 - val_loss: 14.6687
+Epoch 6/10
+ - 1s - loss: 14.1128 - val_loss: 17.0022
+Epoch 7/10
+ - 1s - loss: 13.6888 - val_loss: 11.5547
+Epoch 8/10
+ - 1s - loss: 16.0269 - val_loss: 12.0249
+Epoch 9/10
+ - 1s - loss: 13.1318 - val_loss: 12.5756
+Epoch 10/10
+ - 1s - loss: 13.1054 - val_loss: 12.6001
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3957	0.3629	0.5193
+Generating Triplets using KMeans tau=0.150000
+Generated 2261 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+ - 5s - loss: 14.4957 - val_loss: 12.0171
+Epoch 2/10
+ - 1s - loss: 13.9250 - val_loss: 11.9262
+Epoch 3/10
+ - 1s - loss: 13.9528 - val_loss: 10.1971
+Epoch 4/10
+ - 1s - loss: 14.7637 - val_loss: 18.0385
+Epoch 5/10
+ - 1s - loss: 12.8810 - val_loss: 10.8180
+Epoch 6/10
+ - 1s - loss: 13.6272 - val_loss: 10.3498
+Epoch 7/10
+ - 1s - loss: 14.2902 - val_loss: 11.0068
+Epoch 8/10
+ - 1s - loss: 15.1432 - val_loss: 11.0056
+Epoch 9/10
+ - 1s - loss: 16.1424 - val_loss: 11.1460
+Epoch 10/10
+ - 1s - loss: 14.9039 - val_loss: 15.8681
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3847	0.3509	0.5042
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on real space
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3085	0.2550	0.5088
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on real space
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3240	0.2840	0.5014
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on real space
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2884	0.2540	0.4981
+Generating Triplets using KMeans tau=0.100000
+KMeans algo on real space
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.2894	0.2611	0.4998
+Generating Triplets using KMeans tau=0.100000
+Generated 1773 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 13.7131 - val_loss: 11.3037
+Epoch 2/20
+ - 1s - loss: 14.9674 - val_loss: 14.1866
+Epoch 3/20
+ - 1s - loss: 15.3882 - val_loss: 11.3294
+Epoch 4/20
+ - 1s - loss: 14.0388 - val_loss: 13.1634
+Epoch 5/20
+ - 1s - loss: 14.3815 - val_loss: 13.0043
+Epoch 6/20
+ - 1s - loss: 14.1259 - val_loss: 12.9816
+Epoch 7/20
+ - 1s - loss: 13.5675 - val_loss: 12.1577
+Epoch 8/20
+ - 1s - loss: 14.1214 - val_loss: 12.4857
+Epoch 9/20
+ - 1s - loss: 14.4677 - val_loss: 11.6615
+Epoch 10/20
+ - 1s - loss: 13.6180 - val_loss: 14.0060
+Epoch 11/20
+ - 1s - loss: 14.4952 - val_loss: 11.0274
+Epoch 12/20
+ - 1s - loss: 13.9595 - val_loss: 12.4295
+Epoch 13/20
+ - 1s - loss: 13.9813 - val_loss: 16.9912
+Epoch 14/20
+ - 1s - loss: 14.1777 - val_loss: 14.4071
+Epoch 15/20
+ - 1s - loss: 12.6979 - val_loss: 13.8663
+Epoch 16/20
+ - 1s - loss: 14.4465 - val_loss: 12.0096
+Epoch 17/20
+ - 1s - loss: 13.5045 - val_loss: 13.1377
+Epoch 18/20
+ - 1s - loss: 13.9847 - val_loss: 11.8914
+Epoch 19/20
+ - 1s - loss: 15.3963 - val_loss: 16.8889
+Epoch 20/20
+ - 1s - loss: 13.6523 - val_loss: 14.3226
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3193	0.2670	0.4560
+Generating Triplets using KMeans tau=0.100000
+Generated 1517 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 13.8337 - val_loss: 11.5884
+Epoch 2/20
+ - 1s - loss: 15.1932 - val_loss: 13.4265
+Epoch 3/20
+ - 1s - loss: 14.6542 - val_loss: 14.4730
+Epoch 4/20
+ - 1s - loss: 14.2055 - val_loss: 11.4526
+Epoch 5/20
+ - 1s - loss: 14.5682 - val_loss: 14.6646
+Epoch 6/20
+ - 1s - loss: 14.1094 - val_loss: 17.0071
+Epoch 7/20
+ - 1s - loss: 13.6933 - val_loss: 11.5526
+Epoch 8/20
+ - 1s - loss: 16.0264 - val_loss: 12.0253
+Epoch 9/20
+ - 1s - loss: 13.1294 - val_loss: 12.5732
+Epoch 10/20
+ - 1s - loss: 13.1080 - val_loss: 12.6020
+Epoch 11/20
+ - 1s - loss: 15.0662 - val_loss: 11.0375
+Epoch 12/20
+ - 1s - loss: 13.8698 - val_loss: 12.9444
+Epoch 13/20
+ - 1s - loss: 13.5657 - val_loss: 16.5760
+Epoch 14/20
+ - 1s - loss: 13.5713 - val_loss: 12.0354
+Epoch 15/20
+ - 1s - loss: 13.9462 - val_loss: 14.8648
+Epoch 16/20
+ - 1s - loss: 15.1054 - val_loss: 13.0223
+Epoch 17/20
+ - 1s - loss: 15.6439 - val_loss: 16.0889
+Epoch 18/20
+ - 1s - loss: 14.6059 - val_loss: 10.3203
+Epoch 19/20
+ - 1s - loss: 13.8622 - val_loss: 10.2997
+Epoch 20/20
+ - 1s - loss: 14.6750 - val_loss: 14.2853
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3958	0.3630	0.5193
+Generating Triplets using KMeans tau=0.100000
+Generated 1282 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 14.4160 - val_loss: 21.5043
+Epoch 2/20
+ - 1s - loss: 15.7380 - val_loss: 10.8695
+Epoch 3/20
+ - 1s - loss: 13.5968 - val_loss: 17.9861
+Epoch 4/20
+ - 1s - loss: 13.6671 - val_loss: 14.1245
+Epoch 5/20
+ - 1s - loss: 14.5620 - val_loss: 11.3554
+Epoch 6/20
+ - 1s - loss: 13.0694 - val_loss: 10.1970
+Epoch 7/20
+ - 1s - loss: 14.5024 - val_loss: 16.8214
+Epoch 8/20
+ - 1s - loss: 13.8342 - val_loss: 14.4889
+Epoch 9/20
+ - 1s - loss: 14.7423 - val_loss: 13.8780
+Epoch 10/20
+ - 1s - loss: 15.0785 - val_loss: 10.8647
+Epoch 11/20
+ - 1s - loss: 15.0958 - val_loss: 16.1524
+Epoch 12/20
+ - 1s - loss: 14.5125 - val_loss: 10.2317
+Epoch 13/20
+ - 1s - loss: 13.9911 - val_loss: 13.0275
+Epoch 14/20
+ - 1s - loss: 14.9639 - val_loss: 16.5828
+Epoch 15/20
+ - 1s - loss: 14.2019 - val_loss: 16.3481
+Epoch 16/20
+ - 1s - loss: 14.2402 - val_loss: 11.1858
+Epoch 17/20
+ - 1s - loss: 14.1394 - val_loss: 12.4584
+Epoch 18/20
+ - 1s - loss: 14.6077 - val_loss: 10.5892
+Epoch 19/20
+ - 1s - loss: 14.4791 - val_loss: 11.3889
+Epoch 20/20
+ - 1s - loss: 13.3762 - val_loss: 14.6025
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3277	0.2947	0.4968
+Generating Triplets using KMeans tau=0.100000
+Generated 1180 triplets
+KMeans algo on Triplet embedding space hdim 256 h2e-psi embed dim 512
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv1 (Conv1D)               (None, 253, 256)          1280      
+_________________________________________________________________
+pool1 (MaxPooling1D)         (None, 252, 256)          0         
+_________________________________________________________________
+conv2 (Conv1D)               (None, 245, 512)          1049088   
+_________________________________________________________________
+pool2 (MaxPooling1D)         (None, 244, 512)          0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 244, 512)          0         
+_________________________________________________________________
+flatten (Flatten)            (None, 124928)            0         
+_________________________________________________________________
+embeddings (Dense)           (None, 512)               63963648  
+=================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+_________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+anchor_input (InputLayer)       (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+positive_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+negative_input (InputLayer)     (None, 256, 1)       0                                            
+__________________________________________________________________________________________________
+sequential_1 (Sequential)       (None, 512)          65014016    anchor_input[0][0]               
+                                                                 positive_input[0][0]             
+                                                                 negative_input[0][0]             
+__________________________________________________________________________________________________
+lambda_1 (Lambda)               (None,)              0           sequential_1[1][0]               
+                                                                 sequential_1[2][0]               
+                                                                 sequential_1[3][0]               
+==================================================================================================
+Total params: 65,014,016
+Trainable params: 65,014,016
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/20
+ - 5s - loss: 13.8416 - val_loss: 13.1031
+Epoch 2/20
+ - 1s - loss: 14.9894 - val_loss: 13.2181
+Epoch 3/20
+ - 1s - loss: 14.5479 - val_loss: 10.1981
+Epoch 4/20
+ - 1s - loss: 13.9605 - val_loss: 14.0634
+Epoch 5/20
+ - 1s - loss: 14.3735 - val_loss: 13.5602
+Epoch 6/20
+ - 1s - loss: 13.9943 - val_loss: 11.5305
+Epoch 7/20
+ - 1s - loss: 14.5444 - val_loss: 13.5819
+Epoch 8/20
+ - 1s - loss: 14.0019 - val_loss: 12.6202
+Epoch 9/20
+ - 1s - loss: 14.1659 - val_loss: 11.1702
+Epoch 10/20
+ - 1s - loss: 13.7605 - val_loss: 10.1970
+Epoch 11/20
+ - 1s - loss: 13.8670 - val_loss: 10.7480
+Epoch 12/20
+ - 1s - loss: 14.1740 - val_loss: 12.3421
+Epoch 13/20
+ - 1s - loss: 14.4176 - val_loss: 10.4282
+Epoch 14/20
+ - 1s - loss: 14.1524 - val_loss: 11.8480
+Epoch 15/20
+ - 1s - loss: 14.3953 - val_loss: 11.7878
+Epoch 16/20
+ - 1s - loss: 14.7954 - val_loss: 14.4472
+Epoch 17/20
+ - 1s - loss: 14.7098 - val_loss: 15.6242
+Epoch 18/20
+ - 1s - loss: 13.6390 - val_loss: 12.1921
+Epoch 19/20
+ - 1s - loss: 14.3793 - val_loss: 11.1623
+Epoch 20/20
+ - 1s - loss: 14.0929 - val_loss: 10.3581
+Clustering algorithm name KMeans
+F-score	ARI	NMI	0.3152	0.2887	0.4878
