@@ -1,0 +1,12 @@
+Package                Version     
+---------------------- ------------
+Keras                  2.3.1       
+Keras-Applications     1.0.8       
+Keras-Preprocessing    1.1.0       
+numpy                  1.16.1      
+scikit-image           0.17.2      
+scikit-learn           0.22.1      
+scipy                  1.4.1       
+tensorboard            1.14.0      
+tensorflow-estimator   1.14.0      
+tensorflow-gpu         1.14.0      
